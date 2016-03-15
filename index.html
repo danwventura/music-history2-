@@ -1,0 +1,109 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Music History</title>
+  <link rel="stylesheet" type= "text/css" href="main.css">
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+</head>
+
+
+
+<body>
+
+<nav>
+  <ul>
+    <li class="navbar"><a href="View Music"> View Music|</a></li>
+    <li class="navbar"><a href="Add Music"> Add Music|</a></li>
+    <li class="navbar"><a href="Profile"> Profile</a></li>
+  </ul>
+</nav>
+
+<div class="wrapper">
+
+<section class="container">
+
+
+<form-action="song picker" method="POST">
+  <label for="Song Length:">Song Length:</label>
+<br>  
+  <input type="range" placeholder="Song Length">
+
+  
+<br>
+  <p>Artist:</p>
+  <select name="Artist">
+    <option value="Mario">Mario</option>
+    <option value="Drake">Drake</option>
+    <option value="Izzy Bizu">Izzy Bizu</option>
+    <option value="The Strokes">The Strokes</option>
+  </select>
+
+
+
+<br>
+
+  <p> Album: </p>
+  <select name="Album">
+    <option value="Turning Point">Turning Point</option>
+    <option value="Nothing Was the Same">Nothing Was the Same</option>
+    <option value="A Moment of Madness"> A Moment of Madness</option>
+    <option value="Is This It">Is This It</option>
+  </select>
+<br>
+<br>  
+  <label for="Genre">Genre:</label>
+
+<br>
+
+  <input type="checkbox">Rock 
+  <input type="checkbox">Classical
+<br>
+<br>
+  <input type="checkbox">Pop 
+  <input type="checkbox">Jazz
+<br>
+<br>
+  <input type="checkbox">Blues
+  <input type="checkbox">Hip Hop
+<br>
+<br>
+  <button type="Submit" class="filter">Filter</button>
+
+</section>
+
+<section id="music">
+
+
+</section>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="songs.js"></script>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
